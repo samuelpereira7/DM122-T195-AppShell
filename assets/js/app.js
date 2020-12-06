@@ -1,8 +1,8 @@
 'use strict'
 
 if ('serviceWorker' in navigator) {
-  const success = () => console.log('[Service Worker] registered');
-  const failed = () => console.log('[Service Worker] registration failed');
+  const success = () => console.log('[Service Worker] Registered');
+  const failed = () => console.log('[Service Worker] Registration failed');
 
   navigator.serviceWorker
     .register('sw.js')
